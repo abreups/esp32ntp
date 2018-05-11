@@ -29,8 +29,8 @@ SSD1306 tela(0x3c, 4, 15);
 
 // ssid e senha da rede Wi-Fi à qual
 // você pretende se conectar.
-const char *ssid     = "escritorio";
-const char *password = "PAPITO2010!@#";
+const char *ssid     = "";
+const char *password = "";
 
 // Cria uma instância UDP para permitir enviar e receber pacotes UDP
 WiFiUDP ntpUDP;
